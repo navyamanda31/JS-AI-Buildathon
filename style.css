@@ -1,0 +1,32 @@
+.wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+.tents {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.trail-mastertent, .alpirok-explorer, .skyview-2-person-tent {
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-left: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.backpacks {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.adventure-pro-backpack {
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-left: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
