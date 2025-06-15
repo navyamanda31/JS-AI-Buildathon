@@ -22,4 +22,4 @@ var response = await client.path("chat/completions").post({
   },
 });
 
-console.log(JSON.stringify(response));
+console.log(JSON.stringify(response));n
