@@ -9,10 +9,10 @@ const agentThreads = {};
 export class AgentService {
   constructor() {
     this.client = AIProjectsClient.fromConnectionString(
-      "<YOUR_CONNECTION_STRING>",
+      "southindia.api.azureml.ms;b6310177-43dc-4562-8dbd-4fcfd1e784e3;AIStudio;defaultproject",
       new DefaultAzureCredential()
     );
-    this.agentId = "<YOUR_AGENT_ID>"; // Replace with real agent ID
+    this.agentId = "asst_7L4H4nIeOhKXUAL3uElqOSqx"; // Replace with real agent ID
   }
 
   async getOrCreateThread(sessionId) {
